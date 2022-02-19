@@ -16,16 +16,15 @@
 </head>
 
 <body class="bg-[#2e2e2e]">
-    <div class="my-10"></div>
 
     <!-- nav start -->
     <nav class="bg-teal-500 flex">
         <div class="logo flex justify-start items-center font-bold">Naman Harware and Paint Mart</div>
         <ul class="flex justify-end" id="nav-list">
-            <li class="mx-3 my-2 cursor-pointer">Home</li>
-            <li class="mx-3 my-2 cursor-pointer">About</li>
-            <li class="mx-3 my-2 cursor-pointer">Contact</li>
-            <li class="mx-3 my-2 cursor-pointer">Services</li>
+            <li class="mx-3 my-2 cursor-pointer text-center" onclick="nav()"><a href="/">Home</a></li>
+            <li class="mx-3 my-2 cursor-pointer text-center" onclick="nav()"><a href="#s2">Location</a></li>
+            <li class="mx-3 my-2 cursor-pointer text-center" onclick="nav()"><a href="#products">Products</a></li>
+            <li class="mx-3 my-2 cursor-pointer text-center" onclick="nav()">Services</li>
         </ul>
         <div class="hamburger px-2" onclick="nav()">
             <i class="fa fa-solid fa-bars fa-2x"></i>
@@ -45,12 +44,56 @@
         </div>
     </section>
     <!-- sec1 over -->
-    <hr>
-    <!-- sec2 start -->
-    <section class="s2">
 
+    <hr>
+
+    <!-- sec2 start -->
+    <section class="s2" id="s2">
+        <div class="s21 text-teal-300 text-3xl text-center m-2">
+            Reach Us
+        </div>
+        <div class="s22 text-white m-2">
+            <div class="text-teal-300">Address:</div>
+            NAMAN HARDWARE & PAINT MART, E-10 SHILPAYA SHOPPING CENTRE;ANJALI CROSS ROAD; VASNA, Ahmedabad, Gujarat 380007
+        </div>
+        <div class="m-2 text-teal-300">Google Maps:</div>
+        
+        <iframe class="mx-auto my-2 rounded-[10px] w-[70%] h-[400px]" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3672.5279060036523!2d72.54867751070591!3d23.004381368226305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!1s0x395e85c707707167%3A0xad73abd1b7168ca8!5e0!3m2!1sen!2sin!4v1645262298917!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
     </section>
     <!-- sec2 over -->
+
+    <hr>
+
+    <!-- sec3 start -->
+    <section class="s3" id="products">
+        <div class="s31 text-teal-300 text-3xl text-center m-2">
+            Products
+        </div>
+        <div class="products">
+            <div class="card">
+                <div class="card-title">Apcolite All Protek apcolite_all_protek</div>
+                <div class="card-img"> <img src="./img/products/apcolite_all_protek.png"> </div>
+                <div class="card-desc">The next revolution in interior paints, Apcolite All Protek gives all-round protection, protecting you and the beauty of your walls. This product is available in both matt and shyne variants.</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Apcolite All Protek apcolite_all_protek</div>
+                <div class="card-img"> <img src="./img/products/apcolite_all_protek.png"> </div>
+                <div class="card-desc">The next revolution in interior paints, Apcolite All Protek gives all-round protection, protecting you and the beauty of your walls. This product is available in both matt and shyne variants.</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Apcolite All Protek apcolite_all_protek</div>
+                <div class="card-img"> <img src="./img/products/apcolite_all_protek.png"> </div>
+                <div class="card-desc">The next revolution in interior paints, Apcolite All Protek gives all-round protection, protecting you and the beauty of your walls. This product is available in both matt and shyne variants.</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Apcolite All Protek apcolite_all_protek</div>
+                <div class="card-img"> <img src="./img/products/apcolite_all_protek.png"> </div>
+                <div class="card-desc">The next revolution in interior paints, Apcolite All Protek gives all-round protection, protecting you and the beauty of your walls. This product is available in both matt and shyne variants.</div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- sec3 over -->
 </body>
 
 </html>
